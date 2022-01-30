@@ -4,65 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lara Shiro</title>
-	<style type="text/css">
-		body {
-			margin: 0;
-			padding: 0;
-    		box-sizing: border-box;
-		}
-		#logo {
-			position: absolute;
-			width: 100px;
-			height: 100px;`
-			border-width: 20px;
-			border-style: solid;
-			border-radius: 100%;
-			border-color: white;
-			-ms-interpolation-mode: nearest-neighbor; /* ie */
-			image-rendering: crisp-edges; /* ff */
-			image-rendering: pixelated; /* chrome */
-		}
-		#logo-background {
-			position: absolute;
-			width: 100%;
-			height: 500px;
-			background: url("floating_iceberg.png");
-
-			/* Add the blur effect */
-			/*filter: blur(5px);
-			-webkit-filter: blur(5px);
-    		-moz-filter: blur(4px);
-    		transition: all 0.35s ease-in-out;*/
-		}
-		#logo-background:hover {
-			/*filter: grayscale(0%);
-    		-webkit-filter: grayscale(0%);
-    		-moz-filter: grayscale(0%);*/
-		}
-		header {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 100%;
-			height: 500px;
-			/* Center and scale the image nicely */
-			background-position: top;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-		img.blur {
-			-webkit-filter: blur(3px); -moz-filter: blur(3px);
-			-o-filter: blur(3px); -ms-filter: blur(3px); 
-			filter: url(#blur); filter: blur(3px);  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-			-webkit-transition: 0.5s -webkit-filter linear;
-			-o-transition: 0.5s -o-filter linear;
-
-		}
-		img.blur:hover  { 
-			-webkit-filter: blur(0px); -moz-filter: blur(0px); -o-filter: blur(0px); -ms-filter: blur(0px);
-			filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0'); filter: blur(0px); 
-		} 
-	</style>
+	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
 	<header>
@@ -70,10 +12,58 @@
 		<img id="logo" src="me.png" />
 	</header>
 	<main>
-		
+		<div style="display: flex; justify-content: left; width: 400px;">
+		<div class="info-card">
+			<h1>Commissions Open</h1>
+			<p>
+				I do commissions too. Name your price and get equivalent results.
+				If like my style and want to get something really unique and amazing
+				design for your game then I can do asset designs for you, if you want 
+				a character design then my charter design skills are top notch. If you
+				environment art then just take a look at how awesome my background artifices are.
+			</p>
+		</div>
+		</div>
+		<div style="display: flex; justify-content: right;">
+		<div class="info-card" style="width: 400px;">
+			<h1>Commissions Open</h1>
+			<p>I do commissions too. Name your price and get equivalent results.</p>
+		</div>
+		</div>
+		<div style="display: flex; justify-content: left;">
+		<div class="info-card" style="width: 400px;">
+			<h1>Commissions Open</h1>
+			<p>I do commissions too. Name your price and get equivalent results.</p>
+		</div>
+		</div>
 	</main>
 	<footer>
-		
+		<div class="categories">
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+			<div class="categories-child">
+				<img src="me.png" alt="Isometry" />
+				<p>Isometry</p>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
