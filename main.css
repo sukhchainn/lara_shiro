@@ -82,6 +82,8 @@ main {
 
 .info {
 	display: flex; 
+	margin: auto;
+	max-width: 1200px;
 	justify-content: space-between; 
 	flex-direction: column;
 }
@@ -165,7 +167,7 @@ footer {
 	border-radius: 5%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 800px) {
 	.categories {
 		width: 50%;
 	}
