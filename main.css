@@ -87,7 +87,7 @@ main {
 }
 .info-card {
 	display: inline-block;
-	width: 400px;
+	max-width: 400px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -147,11 +147,17 @@ footer {
 .categories {
 	display: inline-flex;
 	box-sizing: border-box;
-	border: 1px solid pink;
+	/* border: 1px solid pink; */
 	margin: 5px;
 	height: 4em;
 	width: 100%;
 	max-width: 390px;
+}
+.categories:hover, .categories:focus {
+	background-color: white;
+}
+.categories:hover p, .categories:focus p {
+	color: #55399c;
 }
 .categories img {
 	height: 100%;
