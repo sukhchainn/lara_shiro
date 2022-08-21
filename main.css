@@ -68,6 +68,15 @@ header {
 	-webkit-transition: 0.5s -webkit-filter linear;
 	-o-transition: 0.5s -o-filter linear;
 }
+
+@media (max-width: 1058px) {
+	#logo-background {
+		background: none;
+	}
+	header {
+		background: url("images/floating_iceberg.png");
+	}
+}
 /* Header Closed */
 
 /* Main */
@@ -88,7 +97,7 @@ main {
 	flex-direction: column;
 }
 .info-card {
-	display: inline-block;
+	display: block;
 	max-width: 400px;
 	padding: 0px;
 	margin: 0px;
@@ -126,7 +135,8 @@ main {
 		margin-left: 1em;
 	}
 	.info {
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 }
 /* Main closed */
