@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="512px"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   version="1.1"
+   viewBox="0 0 512 512"
+   width="512px"
+   xml:space="preserve"
+   id="svg9"
+   sodipodi:docname="twitch.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="1.625"
+     inkscape:cx="255.69231"
+     inkscape:cy="256.30769"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_x0020_1" /><defs
+     id="defs4"><style
+       type="text/css"
+       id="style2">
+   <![CDATA[
+    .fil0 {fill:black}
+   ]]>
+  </style></defs><g
+     id="Layer_x0020_1"><path
+       class="fil0"
+       d="M256 0c141.39,0 256,114.61 256,256 0,141.39 -114.61,256 -256,256 -141.39,0 -256,-114.61 -256,-256 0,-141.39 114.61,-256 256,-256zm-98.61 136.61l-15.57 41.53 0 166.09 57.07 0 0 31.16 31.16 0 31.13 -31.16 46.71 0 62.29 -62.26 0 -145.36 -212.79 0zm20.75 20.75l171.28 0 0 114.2 -36.34 36.34 -57.08 0 -31.12 31.12 0 -31.12 -46.74 0 0 -150.54zm57.1 103.83l20.76 0 0 -62.28 -20.76 0 0 62.28zm57.08 0l20.76 0 0 -62.28 -20.76 0 0 62.28z"
+       id="path6"
+       style="fill:#e4c3de;fill-opacity:1" /></g></svg>
