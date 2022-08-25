@@ -123,7 +123,7 @@ main {
 	display: flex;
 	flex-direction: column;
 }
-.showcase + a {
+.showcase > a {
 	display: flex;
 	width: 100%;
 	box-sizing: border-box;
@@ -172,7 +172,7 @@ main {
 	img + span {
 		display: none;
 	}
-	a {
+	.showcase > a {
 		width: 50%;
 	}
 }
