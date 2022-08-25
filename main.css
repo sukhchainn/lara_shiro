@@ -20,9 +20,6 @@ img {
 a {
 	display: flex;
 	width: 100%;
-	box-sizing: border-box;
-	justify-content: space-around;
-	align-items: center;
 	text-decoration: none;
 }
 
@@ -125,6 +122,14 @@ main {
 .showcase {
 	display: flex;
 	flex-direction: column;
+}
+.showcase + a {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
 }
 .showcase-img {
 	display: inline-block;
